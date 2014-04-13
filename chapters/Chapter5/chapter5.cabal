@@ -1,0 +1,12 @@
+name: chapter5
+version: 0.1
+cabal-version: >= 1.2
+build-type: Simple
+
+executable profiling-example
+  build-depends: base >= 4
+  hs-source-dirs: .
+  main-is: Main.hs
+  -- other-modules: Chapter5.Annotations
+  ghc-options: -prof -fprof-auto -rtsopts
+

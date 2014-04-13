@@ -1,0 +1,6 @@
+/.cabal-sandbox/
+dist/
+/chapters/Chapter5/profiling-example.aux
+/chapters/Chapter5/profiling-example.hp
+/chapters/Chapter5/profiling-example.prof
+/chapters/Chapter5/profiling-example.ps

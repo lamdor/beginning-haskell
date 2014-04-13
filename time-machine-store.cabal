@@ -1,0 +1,10 @@
+name: time-machine-store
+version: 0.1
+cabal-version: >= 1.2
+build-type: Simple
+
+executable time-machine-store
+  hs-source-dirs: src
+  build-depends: base >= 4
+               , containers >= 0.5.2.1 && < 0.6
+               , persistent >= 1.3.0.6 && < 1.4
