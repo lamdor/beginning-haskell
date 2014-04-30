@@ -1,3 +1,5 @@
+module Chapter7.MonadPlus where
+
 import Control.Monad
 
 broken1 :: Integer -> [Integer]
